@@ -1,5 +1,5 @@
-# YouTube 
-https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+# course 
+http://ml-class.org
 
 # Coursera ML Courses
 Andrew's class may be the common sense among ML practitioners.  
