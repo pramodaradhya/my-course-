@@ -21,7 +21,7 @@ Generally, Andrew's class shows me mostly **what** to do, and **how** to do it. 
   2. a series of Jupyter notebook
   3. data
 * each notebook basically follows the logic flow of project pdf. I didn't present all codes in notebook because I personally think it's very messy. So you will only see visualization, project logic flows, simple experiments, equations and results in notebooks.
-* In [helper](https://github.com/icrtiou/coursera-ML/tree/master/helper) folder, it has modules of different topics. This is where you can find details of model implementation, learning algorithm, and supporting functions.
+* In [helper](https://github.com/pavankumar-07/AndrewNg-ML-Course/tree/master/helper) folder, it has modules of different topics. This is where you can find details of model implementation, learning algorithm, and supporting functions.
 
 ## Go solo with python or go with built-in Matlab project?
 The Matlab project is guiding students to finish the overall project goal, be it implementing logistic regression, or backprop NN. It includes many supporting function to help you do `visualization`,  `gradient checking`, and so on.  
@@ -49,23 +49,23 @@ I am learning by doing, not tools hoarding. Here is the list that helps me along
 
 * acknowledgement: Thank you [John Wittenauer](https://github.com/jdwittenauer?tab=overview&from=2016-08-01&to=2016-08-31&utf8=%E2%9C%93)! I shamelessly steal lots of your code and idea. [here](https://github.com/jdwittenauer/ipython-notebooks)    
 * if you want to run notebooks locally, you could refer to requirement.txt for libraries I've been using.  
-* I'm using `python 3.5.2` for those notebooks. You will need it because I use `@` operator for matrix multiplication extensively.  
+* I'm using `python 3.6.6` for those notebooks. You will need it because I use `@` operator for matrix multiplication extensively.  
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">tensorflow (64-bit linux only) is now available on <a href="https://t.co/292ZKEfpjQ">https://t.co/292ZKEfpjQ</a> Use conda install tensorflow to get it!</p>&mdash; Continuum Analytics (@ContinuumIO) <a href="https://twitter.com/ContinuumIO/status/777882145675096068">September 19, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 ## Read notebook with nbviewer, and references for each exercise
-### [ex1-linear regression](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex1-linear%20regression/)
-* Special thing I did in this project is I implement the linear regression model in [TensorFlow](https://www.tensorflow.org/). This is my first tf experience. Looking forward to learn more when I move into Deep Learning. code: [linear_regression.py](https://github.com/icrtiou/coursera-ML/blob/master/helper/linear_regression.py)
+### [ex1-linear regression](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex1-linear%20regression/)
+* Special thing I did in this project is I implement the linear regression model in [TensorFlow](https://www.tensorflow.org/). This is my first tf experience. Looking forward to learn more when I move into Deep Learning. code: [linear_regression.py](https://github.com/pavankumar-07/AndrewNg-ML-Course/blob/master/helper/linear_regression.py)
 
-### [ex2-logistic regression](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex2-logistic%20regression/)
-### [ex3-neural network](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex3-neural%20network/)
-### [ex4-NN back propagation](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex4-NN%20back%20propagation/)
-### [ex5-bias vs variance](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex5-bias%20vs%20variance/)  
+### [ex2-logistic regression](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex2-logistic%20regression/)
+### [ex3-neural network](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex3-neural%20network/)
+### [ex4-NN back propagation](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex4-NN%20back%20propagation/)
+### [ex5-bias vs variance](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex5-bias%20vs%20variance/)  
 * [Deep Learning](http://www.deeplearningbook.org/) ch5.4 has decent treatment of bias vs variance  
 
-### [ex6-SVM](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex6-SVM/)
-### [ex7-kmeans and PCA](http://nbviewer.jupyter.org/github/icrtiou/coursera-ML/tree/master/ex7-kmeans%20and%20PCA/)
+### [ex6-SVM](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex6-SVM/)
+### [ex7-kmeans and PCA](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex7-kmeans%20and%20PCA/)
 * [The Elements of
 Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) pg.64 has very good explanation about **singular value decomposition**, which is used to find principle components in our PCA. The book is free to download.  
 * [The Deep Learning (ch2.7, 2.8)](http://www.deeplearningbook.org/) has briefly talked about `eigendecomposition` and `SVD`
