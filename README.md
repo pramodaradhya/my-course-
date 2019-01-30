@@ -44,15 +44,6 @@ I am learning by doing, not tools hoarding. Here is the list that helps me along
 * [Quoc Le’s Lectures on Deep Learning](http://www.trivedigaurav.com/blog/quoc-les-lectures-on-deep-learning/): 4k videos with perfect lecture notes.
 * [Learning from Data](http://amlbook.com/): learning theory in less than 200 pages, God.
 
-## Run locally
-**If you find bugs, false logic, just anything that could be better, please do me a favor by creating issues. I would love to see constructively negative feedbacks**  
-
-* acknowledgement: Thank you [John Wittenauer](https://github.com/jdwittenauer?tab=overview&from=2016-08-01&to=2016-08-31&utf8=%E2%9C%93)! I shamelessly steal lots of your code and idea. [here](https://github.com/jdwittenauer/ipython-notebooks)    
-* if you want to run notebooks locally, you could refer to requirement.txt for libraries I've been using.  
-* I'm using `python 3.6.6` for those notebooks. You will need it because I use `@` operator for matrix multiplication extensively.  
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">tensorflow (64-bit linux only) is now available on <a href="https://t.co/292ZKEfpjQ">https://t.co/292ZKEfpjQ</a> Use conda install tensorflow to get it!</p>&mdash; Continuum Analytics (@ContinuumIO) <a href="https://twitter.com/ContinuumIO/status/777882145675096068">September 19, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 ## Read notebook with nbviewer, and references for each exercise
 ### [ex1-linear regression](http://nbviewer.jupyter.org/github/pavankumar-07/AndrewNg-ML-Course/tree/master/ex1-linear%20regression/)
